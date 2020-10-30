@@ -1,6 +1,6 @@
 # Analog Light Intensity Meter
 
-Circuit project of a light intensity meter without use of microcontrollers. The main idea was to develop a circuit using only basics electronics components as LDR, LED, resistors and opamps to create a ADC to read the voltage on LDR. Besides that, we have 9 LED's indicating the light intensity, where 9 LED's on means a high luminosity and all LED's off means a low luminosity.
+A light intensity meter without using microcontrollers. The main idea is to develop a circuit using only basics electronics components such as LDRs, LEDs, resistors and op-amps to create an ADC to read the voltage on the LDR. There's also 9 LEDs indicating the light intensity, where 9 LEDs on means a high luminosity and all LEDs off means a low luminosity.
 
 ## 💻 Project
 
@@ -22,12 +22,9 @@ This project was developed with the following technologies:
 
 ## 🏃 Usage
 
-To see this meter working you have two options:
+To use this project you can either [simulate it](#simulating) or [build it on a protoboard](#building).
 
-- Simulate
-- Circuit on a protoboard
-
-### Simulate
+### Simulating
 
 - You must have [Proteus Professional](https://www.labcenter.com/downloads) installed on your computer
 - Clone this repository with the following command:
@@ -36,11 +33,11 @@ To see this meter working you have two options:
 git clone https://github.com/douglasJovenil/analog-light-intensity-meter
 ```
 
-- On **Proteus** open **lightIntensityMeter.pdsprj**, you find this file inside the repository you just cloned
-- With the project open just click on **Run the simulation** button
+- Open `lightIntensityMeter.pdsprj` with **Proteus**
+- Click the **Run the simulation** button
 
 ![Circuit](./docs/images/02_simulacao.png)
 
-### Circuit on a protoboard
+### Building
 
-Just buy the components and [build it](https://github.com/douglasJovenil/matEle#circuit) 😋
+Just buy the components and follow [this guide](https://github.com/douglasJovenil/matEle#circuit) 😋
